@@ -21,24 +21,17 @@ function listAllVendorsAndSuppliers() {
 	inputAmount.value = amount;
 	inputAmount.className = 'sumAmount';
 	
-	var dellDiv = document.createElement('div');
-	dellDiv.className = "dellDiv";
-	var dell = document.createElement('button');
-	dell.className = "dell";
-	dell.onclick = "dellRow()";
-	dell.innerHTML="Dell Revenue Line";
-	dellDiv.appendChild(dell);
+	
 	
 	
 
 	vendorDiv.appendChild(inputVendor);
 	vendorDiv.appendChild(inputAmount);
-	vendorDiv.appendChild(dellDiv);
 	
 	
 	
 	var supplierDiv = document.createElement('div');
-	supplierDiv.className = "one-two";
+	supplierDiv.className = "one-two2";
 	
 	var inputSupplier = document.createElement('input');
 	inputSupplier.value = supplier;
@@ -54,12 +47,12 @@ function listAllVendorsAndSuppliers() {
 	
 	
 		
-			  var totalV = document.getElementById('totalVendors');
+			  var totalV = document.getElementById('totalVen');
 	
 			  totalV.appendChild(vendorDiv);
 			  
 
-			  var totalS = document.getElementById('totalSuppliers');
+			  var totalS = document.getElementById('totalSupp');
 	
 			  totalS.appendChild(supplierDiv);
 			  
@@ -115,11 +108,15 @@ function listAllVendorsAndSuppliers() {
 	totalSuppliers.appendChild(newSpan2);
 }
 
-function dellRow(){
-	 var rows = document.getElementsByClassName('one-two');
-
-	  if(spanForSum){
-		  spanForSum.parentNode.removeChild(spanForSum);
+function dellVenRow(){
+	 var row = document.getElementById('totalVen');
+	 
+	 console.log(row);
+	  if(row){
+		   
+			  row.parentNode.removeChild(row);	 
+			   
+		 
 	  }
 	
 }

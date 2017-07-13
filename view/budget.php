@@ -147,7 +147,7 @@
 						
 						<div class="oneRowB">	
 						
-									<div class="addDiv" >
+									<div class="addDiv" id="listButt">
 										<input type="button" class = "buttons" onclick ="listAllVendorsAndSuppliers()" value="Add To List"/>
 									</div>
 								
@@ -161,30 +161,28 @@
 								<div class="totals">
 									<h4 class="totalSum"><span>Total Revenue</span></h4>
 									<div class="totalSum" id = "pisnami"></div>
+									<input type="button" onclick="dellVenRow" value="Delete Revenue Lines" class="dellButt">
 								</div>
-									<div id=""  class="labels2">
+								
+								<div id="totalVen" >
+									<div id=""  class="labels3">
 										<label for="vendor">Vendor Name</label>
 									</div>
-									<div id="" class="labels2">
+									<div id="" class="labels3">
 											<label for="amount">Amount</label>
 									</div>	
 									
-									<div id="" class="labels2">
+									<div id="" class="labels3">
 										<label for="expenses">Approuved?</label>
 									</div>
 									
-									<div id=""  class="labels2">
-										<label for="funded">Funded by</label>
-									</div>	
-									<div id="" class="labels2">
+									
+									<div id="" class="labels3">
 											<label for="poN">PO №</label>
 									</div>			
 								
-								<div class="lab">
 								
-								</div>
-								
-								
+								</div>	
 								
 							</div>
 							
@@ -192,39 +190,42 @@
 								<div class="totals">
 									<h4 class="totalSum"><span>Total Expense</span></h4>
 									<div class="totalSum" id = "pisnami2"></div>
+									<input type="button" onclick="dellSupRow" value="Delete Revenue Lines" class="dellButt">
 								</div>
 								
-								<div id=""  class="labels2">	
-									<label for="supplier">Supplier name </label>
+								<div id="totalSupp" >
+								
+									<div id=""  class="labels3">	
+										<label for="supplier">Supplier name </label>
+									</div>
+									
+									<div id="" class="labels3">
+										<label for="ammount2">Amount </label>
+									</div>	
+									
+									<div id="" class="labels3">
+										<label for="quoted">Quoted?</label>
+									</div>	
+									
+									<div id="" class="labels3">
+											<label for="comm">Comments</label>
+									</div>	
 								</div>
-								
-								<div id="" class="labels2">
-									<label for="ammount2">Amount </label>
-								</div>	
-								
-								<div id="" class="labels2">
-									<label for="quoted">Quoted?</label>
-								</div>	
-								
-								<div id="" class="labels2">
-										<label for="comm">Comments</label>
-								</div>	
-							</div>
 							
-							
+							</div>		
 						</div>
 									
 							
 							
-						<div class="oneRow">	
-							<div class="submit">
-								<input name="submit"  type="submit" value="Save" id="saveBudgetIfo"/>
-							</div>
+<!-- 						<div class="oneRow">	 -->
+<!-- 							<div class="submit"> -->
+<!-- 								<input name="submit"  type="submit" value="Save" id="saveBudgetIfo"/> -->
+<!-- 							</div> -->
 							
-							<div class="submit" id="exit">
-								 <a href="/LogoutController.php"> <input type="button" class="logout" value="Exit"/></a>
-							</div>
-						</div>
+<!-- 							<div class="submit" id="exit"> -->
+<!-- 								 <a href="/LogoutController.php"> <input type="button" class="logout" value="Exit"/></a> -->
+<!-- 							</div> -->
+<!-- 						</div> -->
 						
 							
  					</form> 
