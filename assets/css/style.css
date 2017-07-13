@@ -1,0 +1,214 @@
+@CHARSET "ISO-8859-1";
+ a {
+	text-decoration:none;
+	color:#4d4d4d;
+}
+.mandatory {
+	color:red;
+}
+.wrraper{
+	width:1170px;
+	box-sizing:border-box;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:2em auto;
+	box-shadow:20px 20px 100px 20px #7A9985;
+	
+	
+	
+}
+
+.wrrap{
+	padding:1em;
+}
+
+ h2{
+	text-align:center;
+	font-size:2em;
+}
+.oneRow{
+	box-sizing:border-box;
+	display:inline-block;
+	width:100%;
+	padding:0.5em;
+}
+
+#fiel{
+	padding:1em;
+}
+.addDiv,.addDiv2,.addDiv3, .addDiv4, .submit{
+	float:left;
+	padding:0.5em;
+	
+}
+
+#title{
+	width:780px;
+	margin:0.5px;
+	height:25px;
+}
+#num{
+	width:80px;
+	margin:0.5px;
+	height:25px;
+}
+#buttonBudgetDiv{
+	padding:1.5em 0.5em ;
+	text-align:center;
+	
+	
+}
+#buttonBudgetDiv input[type=button]{
+	display:inline-block;
+	width:150px;
+	height:35px;
+	
+	
+}
+
+.labels{
+	text-align:center;
+	margin:0.8px;
+}
+
+.acty-pro{
+	margin:0.5px;
+	height:25px;
+	width:285px;
+	
+}
+#margin{
+	margin:0.5px;
+	height:20px;
+	width:80px;
+	
+}
+
+.managers{
+	
+	margin:0.5px ;
+	height:25px;
+	width:340px;
+	
+}
+#detailsDiv {
+	display:inline-block;
+	width:70%;
+
+}
+#detailsDiv textarea {
+	display:inline-block;
+	width:100%;
+	height:70px;
+
+}
+
+#commentsDiv {
+	display:inline-block;
+	width:25%;
+
+}
+#commentsDiv textarea {
+	display:inline-block;
+	width:100%;
+	height:70px;
+
+}
+#submitDiv{
+	padding:1em 20em;
+	box-sizing:border-box;
+
+	
+}
+
+.submit{
+	margin:0em 1em;
+}
+
+
+.submit input[type=submit], .submit input[type=button]{
+	display:inline-block;
+	width:150px;
+	height:35px;
+	font-size:1.2em;
+}
+
+.projectForm{
+	width:100%;
+	display:inline-block;
+}
+.oneRowB{
+	padding:0.5em;
+	width:48%;
+	display:inline-block;
+	float:left;
+	
+}
+.oneRowB h3{
+	text-align:center;
+	margin:2em;
+}
+
+.addDiv5{
+	float:left;
+}
+.labels2{
+	font-size:0.9em;
+	text-align:center;
+}
+
+#amount, #amount2, #poN{
+	width:60px;
+	margin:0.5em;
+	height:18px;
+}
+
+#supplier, #vendor{
+	width:150px;
+	height:25px;
+	margin:0.5em;
+}
+
+#approuved, #quoted{
+	display:block;
+	margin:0.5em 1.5em;
+	width:20px;
+	height:20px;
+	border:2px solid black;
+}
+
+#comm{
+	margin:0.5em;
+	width:200px;
+	height:20px;
+}
+
+#funded{
+	margin:0.5em;
+	width:60px;
+	height:25px;
+}
+
+
+.oneRowVS{
+	float:left;
+	display:inline-block;
+	width:48%;
+	margin:0.5em;
+}
+
+.oneRowVS .labels2{
+	float:left;
+	margin:0.5em;
+	text-align:center;
+}
+.totals{
+	width:100%;
+	display:inline-block;
+	padding:2em;
+}
+
+.totalSum{
+	float:left;
+	display:inline-block;
+	width:30%;
+}
